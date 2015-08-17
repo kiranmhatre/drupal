@@ -5,7 +5,7 @@
 # name of your environment's bucket. Replace the value below with the
 # name of the bucket from your environment.
 #
-BUCKETNAME=devops-bootcamp-bucket-1swxcabzjz1mh
+BUCKETNAME=km-aws-boot-camp-20150817-bucket-ca0605exmm2t
 
 aws s3 cp s3://$BUCKETNAME/settings.php /var/www/html/sites/default/settings.php
 chown apache:apache /var/www/html/sites/default/settings.php
